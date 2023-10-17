@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(198, 197, 187);
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    margin: 0 auto;
+    
+}
+
+#tart {
+    z-index: 1;
+    grid-row: 1/3;
+    grid-column: 1/4;
+    font-size: 12vw;
+    letter-spacing: 15px;
+    padding-left: 150px;
+    font-weight: 900;
+
+}
+
+.cherries {
+    z-index: 1;
+    grid-column: 3;
+    grid-row: 2/3;
+    font-size: 5vw;
+    letter-spacing: 15px;
+    font-weight: 900;
+    color: #901e1e;
+    padding-right: 200px;
+    padding-bottom: 50px;
+
+}
+.cherry_png {
+    background-color: white;
+    grid-row: 1/3;
+    grid-column: 1/2;
+    padding-left: 135px;
+    padding-top: 50px;
+}
