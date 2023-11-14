@@ -1,0 +1,216 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/*header ---------------------------------------------------------*/
+header {
+    background-color:#620306;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 100px;
+}
+nav a {
+    text-align: center;
+    color: wheat;
+    text-decoration: none;
+    padding: 35px;
+    font-size: x-large;
+}
+nav a:hover {
+    background-color:#d5942b;
+    color:  #3a1515;
+}
+
+/*home css ------------------------------------------------------- */
+.home_nav {
+    text-decoration: underline;
+}
+.vendor_person {
+    padding: 80px;
+    display: block;
+    margin: auto;
+}
+.vendor_p {
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -60px;
+    font-style: italic;
+    padding-left: 10pc;
+    padding-right: 10pc;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #620306;
+    margin-bottom: 10%;
+    text-align: justify;
+    text-indent: 30px;
+}
+.bridging_title {
+    font-size: 3em;
+    font-family: "Montserrat", sans-serif;
+}
+.Mindanao {
+    display: inline;
+    border: 20px solid #dcc192 ;
+}
+#home_container {
+    display: flex;
+}
+.home_text_container {
+    background-color: #823033;
+    font-size: 1.3em;
+    padding: 50px;
+    text-align: left;
+    text-indent: 30px;
+    font-family: "Roboto", Helvetica, sans-serif;
+    color: wheat;
+}
+/* ------------------------------------------------------- */
+
+
+/* page 2 css -------------------------------------------- */
+.pg2_nav {
+    text-decoration: underline;
+}
+.product_title {
+    font-size: 3em;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 100px;
+}
+.cdo_products {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    display: block;
+    margin: auto;
+}
+.price {
+    width: 650px;
+    padding: 20px;
+    border: 20px solid #823033 ;
+}
+#page2_container {
+    display: flex;
+}
+.pg2_background {
+    background-color: #823033  ;
+    height: 625px;
+    margin-top: 100px ;
+}
+.page2_text_container {
+    font-size: 1.3em;
+    padding: 3pc;
+    text-align: left;
+    text-indent: 30px;
+    font-family: "Roboto", Helvetica, sans-serif;
+    color: wheat;
+}
+.selecting {
+    border: 20px solid #823033 ;
+    margin-left: 150px ;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+/* ------------------------------------------------------- */
+
+/* page 3 css -------------------------------------------- */
+.pg3_nav {
+    text-decoration: underline;
+}
+.why_choose_title {
+    font-size: 3em;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 100px;
+}
+.delivery {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    display: block;
+    margin: auto;
+    width: 1000px;
+}
+.pg3_text_container_delivery{
+    font-size: 1.3em;
+    font-family: "Roboto", Helvetica, sans-serif;
+    padding: 3pc;
+    padding-left: 5pc;
+    padding-right: 5pc;
+    text-align: justify;
+    text-indent: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: -130px;
+}
+.pg3container_upd, .pg3_container_con {
+    display: flex;
+    padding: 50px;
+}
+.update_p, .convenient_p {
+    font-family: "Roboto", Helvetica, sans-serif;
+    text-indent: 30px;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: left;
+}
+.update_p {
+    font-style: italic;
+    font-size: 2.4em;
+    color: #620306;
+}
+.convenient_p {
+    font-size: 1.8em;
+    color:#620306;
+}
+.updates, .convenient {
+    border: 20px solid #b49b70  ;
+}
+
+
+/* footer--------------------------------------------------*/
+footer {
+    color: wheat;
+    background-color:#620306;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+}
+.Social {
+    padding-left: 25%;
+}
+footer .Social img {
+    padding: 15px;
+}
+
+footer a {
+    color: wheat ;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: wheat;
+}   
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p:hover {
+    text-decoration: underline;
+}
